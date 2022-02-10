@@ -6,22 +6,22 @@
 // - For the age categories, you may use whatever aging scale you'd like
 let yourAge = 5
  
-if (age > 0 && < 1) {
+if (yourAge > 0 && yourAge< 1) {           //Do you have to put the variable yourAge on both sides of the &&??
     console.log("You're a baby!")
 }
-else if (age > 1 && < 3) {
+else if (yourAge > 1 && yourAge< 3) {
     console.log("You're a toddler")
 }
-else if (age > 3 && < 5) {
+else if (yourAge > 3 && yourAge< 5) {
     console.log("You're a child")
 }
-else if (age > 5 && < 12) {
+else if (yourAge > 5 && yourAge< 12) {
     console.log("You're a pre-teen")
 }
-else if (age > 12 && < 18) {
+else if (yourAge > 12 && yourAge< 18) {
     console.log("You're a teen")
 }
-else if (age > 18 && < 20) {
+else if (yourAge > 18 && yourAge< 20) {
     console.log("You're a young adult")
 }
 else {
