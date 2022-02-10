@@ -10,11 +10,11 @@
  
 let lang = "es";
  
-if ((lang = "es")) {
+if ((lang === "es")) {
   console.log("Hola mundo!");
-} else if ((lang = "de")) {
+} else if ((lang === "de")) {
   console.log("Hallo welt!");
-} else if ((lang = "fr")) {
+} else if ((lang === "fr")) {
   console.log("Salut tout le monde");
 } else {
   console.log("What the heck is you speakin?");
