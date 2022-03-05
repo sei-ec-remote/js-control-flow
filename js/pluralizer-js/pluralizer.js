@@ -1,3 +1,7 @@
 let thing = 'ranch dressing';
-let count = 19;
-console.log(count + thing);
+let count = 3
+if (count > 0) {
+    console.log(`${count} ${thing}s`)
+} else {
+    console.log( `${count} ${thing}`)
+} 
