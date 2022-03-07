@@ -4,6 +4,12 @@ let languages = {
     gr: "Hallo Welt"
 }
 
-console.log(languages.en)
-console.log(languages.fr)
-console.log(languages.gr)
+ if (languages == 'english' || languages == 'English') {
+     console.log(en)
+    } else if (languages == 'french' || languages == 'French') {
+        console.log(fr)
+ } else if (languages == 'german' || languages == 'German') {
+     console.log(gr)
+ } else {
+     console.log('invalid')
+ }

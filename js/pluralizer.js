@@ -1,3 +1,9 @@
-let thing = 'bears';
-let count = 11;
-console.log(count , thing)
+let thing = 'bear';
+let count = 1;
+
+ if (count >  1){
+     thing = (`${thing}s`)
+     console.log(count + ' ' + thing)
+ } else {
+     console.log(count + ' ' + thing) 
+    }
