@@ -6,43 +6,31 @@
 // For the age categories, you may use whatever aging scale you'd like
 
 
-const age = 500;
+const age = 19;
 
-// this is a terrible use case for switches and i'm crying slightly
-switch (age) {
-    case 0:
-    case 1:
+// this is somewhat better than what i had before and i'm crying slightly less
+switch (true) {
+    case (age < 0):
+        console.log("You don't exist yet.");
+        break;
+    case (age >= 0 && age < 2):
         console.log("You are an infant.");
         break;
-    case 2:
-    case 3:
-    case 4:
+    case (age >= 2 && age < 5):
         console.log("You are a toddler.");
         break;
-    case 5:
-    case 6:
-    case 7:
-    case 8:
-    case 9:
+    case (age >= 5 && age < 10):
         console.log("You are a child.");
         break;
-    case 10:
-    case 11:
-    case 12:
+    case (age >= 10 && age < 13):
         console.log("You are a preteen.");
         break;
-    case 13:
-    case 14:
-    case 15:
-    case 16:
-    case 17:
+    case (age >= 13 && age < 18):
         console.log("You are a teen.");
         break;
-    case 18:
-    case 19:
-    case 20:
+    case (age >= 18 && age < 20):
         console.log("You are a young adult.");
         break;
     default:
-        console.log("You are too mysterious for this program. Perhaps you're a vampire, like Matt?");
+        console.log("You're too old for this program to handle!");
 }
