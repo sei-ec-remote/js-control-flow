@@ -1,10 +1,14 @@
 let tempFahrenheit = 75;
-let tempType = 'k';
+let tempType = 'c';
 
 if (tempType === 'c') {
-    console.log((tempFahrenheit - 32) * (5/9))
+    tempType = 'Celsius';
+    console.log(`${tempFahrenheit} degrees Fahrenheit is ${((tempFahrenheit - 32) * (5/9))} degrees ${tempType}.`)
 } else if (tempType === 'k') {
-    console.log((tempFahrenheit - 32) * (5/9) + 273.15)
+    tempType = 'Kelvin';
+    console.log(`${tempFahrenheit} degrees Fahrenheit is ${((tempFahrenheit - 32) * (5/9) + 273.15)} degrees ${tempType}.`)
 } else {
     console.log('Please try with a real temperature system!')
 }
+
+//X degrees Fahrenheit is Y degrees Celsius/Kelvin"
