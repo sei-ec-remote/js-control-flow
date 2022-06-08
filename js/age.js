@@ -6,7 +6,7 @@
 // For the age categories, you may use whatever aging scale you'd like
 
 
-let age = 199;
+const age = 199;
 
 if (age < 0) {
     console.log("You don't exist yet.");

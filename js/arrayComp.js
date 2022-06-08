@@ -15,7 +15,7 @@ const arrayOne = [1, 'a', 3, 'e', 5, 7, 9, 'i'];
 const arrayTwo = [1, 'a', 3, 'e', '5', 7, 9, 'i'];
 
 function areArraysEqual(arrayOne, arrayTwo) {
-    // prevent indexing errors and getting an obvious check out of the way first
+    // prevent indexing errors and get an obvious check out of the way first
     if (arrayOne.length !== arrayTwo.length) { return false; }
 
     // iterate through arrayOne and compare it term-by-term to arrayTwo;

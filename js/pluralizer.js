@@ -9,8 +9,8 @@
 
 // Your program should pluralize the word based on an integer (count)
 
-let thing = "integral";
-let count = 1;
+const thing = "integral";
+const count = 1;
 
 // this is actually a wildly complicated task, but for my own well-being i'll assume that
 // you're not trying to ask about the absolute linguistic disaster of english plural forms

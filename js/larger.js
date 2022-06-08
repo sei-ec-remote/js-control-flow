@@ -6,7 +6,7 @@
 // Your program should maintain two variables
 // It should correctly identify which is larger and print that result
 
-let numberOne = 44;
-let numberTwo = 12;
+const numberOne = 44;
+const numberTwo = 12;
 
 console.log(`The larger number of ${numberOne} and ${numberTwo} is ${numberOne > numberTwo ? numberOne : numberTwo}.`);

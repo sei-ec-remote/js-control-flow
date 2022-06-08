@@ -9,7 +9,7 @@
 // Make sure to test with the different languages you choose.
 // (Feel free to Google the translation if you aren't fluent.)
 
-let langCode = "es";
+const langCode = "es";
 
 const helloWorldLanguages = {
     es: "Hola mundo",
