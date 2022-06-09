@@ -7,14 +7,11 @@
 // * It should support at least 3 languages
 // * Make sure to test with the different languages you choose.
 // * (Feel free to Google the translation if you aren't fluent.)
-function translation(language1, language2) {
-    let helloWorld = ['Hello World', '안녕하세요 세계', 'Hola Mundo'];
-    let lang1 = language1
-    let lang2 = language2
+function translation(lang1, lang2) {
     let languages = ['eng', 'kor', 'esp'];
-    let english = helloWorld[0];
-    let korean = helloWorld[1];
-    let spanish = helloWorld[2];
+    let english = 'Hello World';
+    let korean = '안녕하세요 세계';
+    let spanish = 'Hola Mundo';
     for (let i = 0; i <= languages.length; i++) {
         if (lang1 === languages[i]) {
             if (lang2 === languages[0]) {
@@ -33,4 +30,4 @@ function translation(language1, language2) {
     }
 }
 
-translation('esp', 'jap')
+translation('esp', 'eng')
