@@ -6,13 +6,11 @@
 // * It should correctly identify which is larger and print that result
 
 function greaterNumber(num1, num2) {
-    let number1 = num1;
-    let number2 = num2;
-    if (number1 > number2) {
-        console.log('The larger number of ' + number1 + ' and ' + number2 + ' is ' + number1);
+    if (num1 > num2) {
+        console.log('The larger number of ' + num1 + ' and ' + num2 + ' is ' + num1);
     }
     else if (number2 > number) {
-        console.log(`The larger number of ${number2} and ${number1} is ${number2}`);
+        console.log(`The larger number of ${num2} and ${num1} is ${num2}`);
     }
     else {
         console.log('Looks like both numbers are equal.')
