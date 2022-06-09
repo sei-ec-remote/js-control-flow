@@ -12,13 +12,11 @@
 // * Your program should pluralize the word based on an integer (`count`)
 
 function howManyPets(pet, count) {
-    let animal = pet;
-    let howMany = count;
-    if (howMany > 1) {
-        console.log(howMany + " " + animal + "s!")
+    if (count > 1) {
+        console.log(count + " " + pet + "s!")
     }
     else {
-        console.log(`${howMany} ${animal}!`)
+        console.log(`${count} ${pet}!`)
     }
 }
 
