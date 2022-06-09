@@ -7,14 +7,12 @@
 // * Convert from F to C or K based on the indicator variable.
 // * The output of the program should read: "X degrees Fahrenheit is Y degrees Celsius/Kelvin"
 
-function celToFarenheit(celsius) {
-    let temp = celsius;
+function celToFarenheit(temp) {
     let cToF = Math.ceil(temp * 9 / 5 + 32);
     console.log(temp + ' degrees Celsius/Kelvin is ' + cToF + ' degrees Fahrenheit!');
 }
 
-function farToCelsius(fahrenheit) {
-    let temp = fahrenheit;
+function farToCelsius(temp) {
     let fToC = Math.ceil((temp - 32) * 5 / 9);
     console.log(`${temp}\xB0F is ${fToC}\xB0C/K!`);
 }
