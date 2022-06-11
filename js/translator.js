@@ -20,16 +20,35 @@ const lang = [
      'Bonjour Le Monde'
 ] 
 
-console.log(Math.floor(Math.random() * lang.length))
-if (lang.length === 0) {
-    console.log('Hola Mundo')
-} else if (lang.length === 1) {
-    console.log(['Chao The'])
-} else if (lang.length === 2) {
-    console.log(['Bonjour Le Monde'])
+// console.log(Math.floor(Math.random() * lang.length))
+// if (lang.length === 0) {
+//     console.log('Hola Mundo')
+// } else if (lang.length === 1) {
+//     console.log(['Chao The'])
+// } else if (lang.length === 2) {
+//     console.log(['Bonjour Le Monde'])
+// }
+
+
+function langTranslation(lang1, lang2) {
+    let languages  = ["span", "eng", "fren"];
+    let spanish = "Hola";
+    let english = "Hello There";
+    let french = "Bonjour";
+    for (let i = 0; i <languages.length; i++) {
+        if (lang1 === languages[i]) {
+            if (lang2 === languages[0]) {
+                console.log(spanish)
+            } else if (lang2 === languages[1]) {
+                console.log(english)
+            } else if (lang2 === languages[2]) {
+                console.log(french)
+            } else {
+                console.log("This language is not supported!")
+            }
+        }
+    }
 }
-
-
-
+langTranslation("span", "fren")
 
 

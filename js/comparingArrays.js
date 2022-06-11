@@ -18,16 +18,13 @@ const arr4 = [0, 2, 4, 6];
 function comp(firstArray, secondArray) {
     if (firstArray.length === secondArray.length){
         for (let i=0; i < firstArray.length; i++){
-            if(i === firstArray.length){
-                console.log("The arrays are equal")
-            
-            } else if ( i !== firstArray.length) {
-            console.log("The arrays are not equal")
-            
-        } else {
-        console.log("The arrays are not equal")
+            if(firstArray[i]===secondArray[i]){
+                
+        }
+        
     }
 }
-    }}
+console.log("arrays are equal values")
+}
     
 comp(arr1, arr2)
