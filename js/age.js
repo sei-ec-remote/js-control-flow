@@ -1,5 +1,5 @@
 
-let age = 17 
+let age = 13
 if ( age <= 12) {
     console.log('child')
 } else if (age <= 4) {
