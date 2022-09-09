@@ -1,4 +1,5 @@
 let languageCode = 'de' // 'fr' for French, 'de' for German, 'es' for Spanish
+
 if (languageCode === 'fr') {
     console.log('"Hello world" in English is "Bonjour le monde" in French.');
 } else if (languageCode === "de") {
