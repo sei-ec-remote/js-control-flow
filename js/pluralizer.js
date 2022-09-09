@@ -1,7 +1,7 @@
 let thing = 'dog';
-let count = 10;
+let count = 5;
 
-if (count === 1) {
+if (count >= 0 && count <= 1) {
     console.log(`${count} ${thing}`);
 } else if (count >= 2) {
     console.log(`${count} ${thing}s`);
