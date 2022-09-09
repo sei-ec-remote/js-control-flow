@@ -8,16 +8,16 @@ const compareArray = []
 
 
 
-for (let i = 0; i < arr2.length; i++){
-    if(arr2[i]=== arr4[i]){
+for (let i = 0; i < arr1.length; i++){
+    if(arr1[i]=== arr2[i]){
         compareArray.push(true)
     } else {
         compareArray.push(false)
     }
 }
 
-if (compareArray.includes(true)){
-    console.log('equal')
-} else if (compareArray.includes(false)){
+if (compareArray.includes(false)){
     console.log('not equal')
+} else {
+    console.log('equal')
 }
