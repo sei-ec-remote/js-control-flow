@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 let temp = prompt("Enter a temperature in Farhrenheit");
 
 function tempConvert(){
