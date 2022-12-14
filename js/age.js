@@ -1,5 +1,7 @@
+// Setting age variable to equal a random integer between 0 and 20
 let age = Math.floor(Math.random() * 20);
 
+// Printing age category based on age variable conditions
 if((age > 0) && (age < 2)) {
     console.log('Age: ' + age + ' Category: Infant');
 } else if ((age >= 2) && (age <= 4)) {
@@ -13,5 +15,5 @@ if((age > 0) && (age < 2)) {
 } else if ((age >= 18) && (age < 20)) {
     console.log('Age: ' + age + ' Category: Young Adult');
 } else {
-  console.log('Input is invalid. Please enter an age between 0 and 20.');
+    console.log('Input is invalid. Please enter an age between 0 and 20.');
 }
