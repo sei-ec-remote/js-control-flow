@@ -1,7 +1,6 @@
+// Write a program that will print the age category, given a variable with an age. Display either "infant", "toddler", "child", "preteen", "teen", or "young adult", for an age that is an integer between 0 and 20.
 
-let age = null
-// To test code
-// age = Math.floor(Math.random() * 20)
+let age = Math.floor(Math.random() * 20);
 
 if((age > 0) && (age < 2)) {
     console.log('Age: ' + age + ' Category: Infant');
