@@ -8,8 +8,8 @@
 
 //citation for .slice() functionality to remove the last characters to pluralize correctly https://masteringjs.io/tutorials/fundamentals/remove-last-character 
 
-let thing = 'rabies';
-let count = 2;
+let thing = 'rat'
+let count = 1000
 
 function pluralizer(thing, cow){
   if(typeof thing === 'string' && typeof count === 'number'){
@@ -29,7 +29,7 @@ function pluralizer(thing, cow){
       else if(thing === 'mouse'){
         console.log(`This is a toughie! The plural of ${thing} is mice! Holy cow, ${count} is a lot of mice!`)
       }
-      else{console.log(`The plural of ${thing} is ${thing}s`)}
+      else{console.log(`The plural of ${thing} is ${thing}s. Holy cow, ${count} is a lot of ${thing}s!`)}
     }
     else if(count === 1){
       console.log(`There is only ${count} ${thing}, therefore no pluralizer is needed!`)
@@ -39,8 +39,8 @@ function pluralizer(thing, cow){
     }
   }
   else if(typeof thing !== 'string' || typeof count !== 'number'){console.log("Please only enter a 'thing' in string format and 'count' as an integer")}
-};
+}
 
-pluralizer(thing.toLowerCase(), count);
+pluralizer(thing.toLowerCase(), count)
 
 //I know that I use different versions of " " and ` ` or ' ' - this was just for testing out the different ways to represent strings & use variables that we learned in class today. I will not do this intentionally going forward.
