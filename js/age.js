@@ -15,7 +15,7 @@ function ageIsANumber(age) {
   else{console.log('Please only provide a number between 0 and 20.')}
 };
 
-age = 50;
+age = 10;
 ageIsANumber(age);
 
 
