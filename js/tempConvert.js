@@ -8,10 +8,7 @@
 // * The output of the program should read: "X degrees Fahrenheit is Y degrees Celsius/Kelvin"
 
 
-
-
-
-let fahrenheit = [45, "F"];
+let fahrenheit = [Math.floor(Math.random() * 120), "F"];
 
 let celsius = [null, "c"];
 

@@ -51,4 +51,4 @@ else {
 }
 
 // Prints the results to the console.
-console.log(`Equality in type, value and array length is ${checkEquality}.`)
+console.log(`The equality of type, value, order and length between the two arrays is ${checkEquality}.`)

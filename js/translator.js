@@ -20,11 +20,14 @@ const messages = {
 }
 
 // If you want to translate just one language against the messages object
+
+let random = Math.floor(Math.random() * 3)
+
 for (key in messages) {
 
-    if (codes[2] === key) {
+    if (codes[random] === key) {
         
-        console.log("Single translation: ", "\n", codes[2], ":", messages[key]);
+        console.log("Single translation: ", "\n", codes[random], ":", messages[key]);
 
     }
 
