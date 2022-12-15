@@ -13,8 +13,8 @@
 // Be sure to test with different combinations to make sure your script fully works:
 
 const arr1 = [1, 'a', 3, 'e', 5, 7, 9, 'i'];
-// const arr2 = [1, 'a', 3, 'e', 5, 7, 9, 'i'];
-const arr2 = [1, 'a', 3, 5, 'e', 7, 10, 'i'];
+const arr2 = [1, 'a', 3, 'e', 5, 7, 9, 'i'];
+const arr3 = [1, 'a', 3, 5, 'e', 7, 10, 'i'];
 const arr4 = [0, 2, 4, 6,7,8,8,9];
 
 let checkEquality = null;
@@ -30,19 +30,16 @@ if (arr1.length === arr2.length) {
             if (arr1[i] === arr2[i]) {
 
                 checkEquality = true
-                console.log('true')
             }
             else {
 
                 checkEquality = false
 
-                console.log('false')
-
-                // break;
+                break; // As soon as one item in the array is found to be inequivalent, stop checking for equality
             }
 
         }
-
+        break;
     }
     
 }
@@ -53,4 +50,5 @@ else {
 
 }
 
+// Prints the results to the console.
 console.log(`Equality in type, value and array length is ${checkEquality}.`)
