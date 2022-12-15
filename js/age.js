@@ -1,4 +1,4 @@
-let age =  21
+let age =  14
 if (age >=  0 && age <= 2) {    //0-2
     console.log("infant")
 } else if(age >= 3 && age <=6) {    //3-6
