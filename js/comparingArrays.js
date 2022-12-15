@@ -1,10 +1,5 @@
 //Using any of the loop constructs we've learned, write a program that will check two arrays for equality. You may consider two arrays to be "equal" if and only if they contain exactly the same number of items and each item is the same type, same value, and in the same order in both arrays.  Be sure to test with different combinations to make sure your script fully works:
 
-const arr1 = [1, 2, 'a', 'b', 'c', null, true]
-const arr2 = [1.0, 2, 'a', 'b', 'c', null, true]
-const arr3 = [1, 12, 'a', 'f', 'g', null, false]
-const arr4 = ['a', 'b', 'c']
-const arr5 = [1, 2, 'A', 'b', 'c', null, true]
 const cArray = []
 
 function compArr(array1, array2){
@@ -27,5 +22,11 @@ function compArr(array1, array2){
   }
   else{console.log("These arrays are not the same length, therefore cannot be exactly the same.")}
 }
+
+const arr1 = [1, 2, 'a', 'b', 'c', null, true]
+const arr2 = [1.0, 2, 'a', 'b', 'c', null, true]
+const arr3 = [1, 12, 'a', 'f', 'g', null, false]
+const arr4 = ['a', 'b', 'c']
+const arr5 = [1, 2, 'A', 'b', 'c', null, true]
 
 compArr(arr1, arr3)
