@@ -1,8 +1,8 @@
 let thing = 'cat';
-let count = 5;
+let count = 1;
 
 if (count <= 1) {
-    console.log(thing)
+    console.log(`${count} ${thing}`)
 } else {
-    console.log(thing + 's')
+    console.log(`${count} ${thing}s`)
 }
