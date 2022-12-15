@@ -4,6 +4,8 @@ const de = 'Hallo Welt'
 const nl = 'Hallo Wereld'
 const pl = 'Witaj swiecie'
 
+//I would actually do this with an array of objects and a function, but...
+
 if (languageChoice === 'fr') {
     console.log(`Hello World in French is ${fr}.`)
 } else if (languageChoice === 'de') {
