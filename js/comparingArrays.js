@@ -19,7 +19,8 @@ function compArr(array1, array2){
       if(cArray[j] === true){
         count+=1
       }
-    }
+    }; 
+    console.log("The comparison shows:", cArray)
     if(count === array1.length){
       console.log("These arrays are exactly the same in every single way!")
     } else{console.log("These arrays are not exactly the same and I want you to think about that")}
@@ -27,4 +28,4 @@ function compArr(array1, array2){
   else{console.log("These arrays are not the same length, therefore cannot be exactly the same.")}
 }
 
-compArr(arr1, arr2)
+compArr(arr1, arr3)

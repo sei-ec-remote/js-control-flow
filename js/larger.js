@@ -5,8 +5,8 @@
 // Your program should maintain two variables
 // It should correctly identify which is larger and print that result
 
-let num1 = 1
-let num2 = 3
+let num1
+let num2
 
 function larger(num1, num2){
   if(typeof num1 === 'number' && typeof num2 === 'number'){
@@ -17,8 +17,12 @@ function larger(num1, num2){
     } else if(num1 === num2){
       console.log(`These two numbers are equal! ${num1} = ${num2}`)  
     }
+  } else{
+    console.log("Please only enter numbers!")
   }
-  else{console.log("Please only enter numbers!")}
 }
 
-larger(num1, num2)
+let myNum1 = 1
+let myNum2 = 2
+
+larger(myNum1, myNum2)

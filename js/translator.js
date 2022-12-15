@@ -10,7 +10,7 @@
 
 // Languages - english, danish, icelandic - source: google.translate
 
-let lang = 'is'
+let lang
 
 function translator(lang){
   if(lang.toLowerCase() === 'es' ){
@@ -25,4 +25,5 @@ function translator(lang){
   }
 }
 
-translator(lang)
+let myLang = 'is'
+translator(myLang)
