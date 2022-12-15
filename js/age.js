@@ -26,7 +26,7 @@ for (key in scale) {
 
         if (age === scale[key][i]) {
 
-            console.log(`You are a ${key}`.);
+            console.log(`You are a ${key}.`);
 
         }
         
