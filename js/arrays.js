@@ -4,7 +4,7 @@
 // const arr4 = [0, 2, 4, 6];
 
 let a = [1,2,3]
-let b = [1,4,3]
+let b = [1,2,3]
 // var a = arr4
 // var b = arr3
 var result = false
