@@ -1,1 +1,11 @@
-
+let age = 16;
+if (age <= 2)
+    console.log("This person is an infant.")
+else if (age >= 3  && age <= 10)
+    console.log("This person is a child.")
+    else if (age >= 11 && age <= 12)
+    console.log("This person is a preteen.")
+else if (age >= 13 && age <= 17)
+    console.log("This person is a teen.")
+else if (age >= 18 && age <= 20)
+    console.log("This person is a young adult.")
