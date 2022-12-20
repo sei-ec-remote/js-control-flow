@@ -1,11 +1,22 @@
-let en = 'Hello World!';
-let fr = 'Bonjour Monde!';
-let es = 'Hola Mundo!';
+let translate = "fr"
+const fr = "Bonjour Monde!"
+const es = "Hola Mundo!"
+
+if (translate === "fr") {
+    console.log(fr)
+}
+else if (translate === "es") {
+    console.log(es)
+}
+
+
+
 /*
 {
     console.log(fr)
 }
 */
+/*
 if (Math.random(en) <0.4) {
     console.log("English translation is " + en)
 }   
