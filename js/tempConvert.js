@@ -11,4 +11,5 @@ const F = 50;
 const C = (F - 32) / 1.8;
 const K = (F - 32) / 1.8 + 273.15;
 
-console.log(" X degrees Fahrenheit is Y " + C / K);
+console.log(`${F} degrees fahrenheit equal to ${C} degrees celsius and ${K} degrees kelvin.`)
+

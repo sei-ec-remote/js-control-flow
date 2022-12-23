@@ -10,6 +10,6 @@
 let thing = "cat";
 let count = 5;
 
-for (let thing = 0; thing < 5; thing++) {
+for (let count = 0; count < 5; count++) {
   console.log("cat" + "s");
 }
