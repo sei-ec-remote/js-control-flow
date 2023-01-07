@@ -1,9 +1,4 @@
-K = (5/9) * (F - 32) + 273.15  -(2)
-C = (5/9) * (F - 32)  -(1)
+let F = (32)
+let C = (F-32) * (5/9)
 
-function (fnht)
-{
-    var f = fnht;
-    
-}
-
+console.log('the conversion is' + C)
