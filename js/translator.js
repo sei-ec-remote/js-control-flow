@@ -15,3 +15,4 @@ if(code == "es"){
 } else {
     console.log("Wrong input of Language Code")
 }
+//Correct one
